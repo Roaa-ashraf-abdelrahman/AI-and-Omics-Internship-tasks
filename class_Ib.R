@@ -22,5 +22,7 @@ str(patient_data)
 #saving cleansed data to clean data folder
 write.csv(patient_data , file= "Results/patient_info_clean.csv")
 
+#saving workspace
+save.image(file = "Roaa_Elbakry_Class_Ib_Assignment.RData")
 
 
